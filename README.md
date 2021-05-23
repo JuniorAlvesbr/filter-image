@@ -1,11 +1,11 @@
 # Image Filter (Filtro de Imagem)
 
-[<img src="capturar.jpg">](https://junioralvesbr.github.io/currency-converter/)
+[<img src="./images/filter-image.png">](https://junioralvesbr.github.io/filter-image)
 
 ## Descrição:
 
 Aplicativo web de filtro de imagem.<br>
-Acesse o [LINK](https://junioralvesbr.github.io/currency-converter/)
+Acesse o [LINK](https://junioralvesbr.github.io/filter-image/)
 
 ## Informações Técnicas:
 
