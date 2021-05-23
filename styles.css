@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.list > .item {
+  padding: 5px 20px;
+  margin: 20px 10px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.list > .item.-active {
+  background-color: blue;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  gap: 16px;
+  justify-items: center;
+}
+
+.container > .content {
+  display: none;
+}
+
+.container > .content.-active {
+  display: block;
+}
+
+.container > .content .image {
+  width: 100%;
+  object-fit: cover;
+}
